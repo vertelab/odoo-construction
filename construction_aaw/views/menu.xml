@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Main ÄTA action -->
+    <record id="action_construction_aaw" model="ir.actions.act_window">
+        <field name="name">ÄTA</field>
+        <field name="res_model">construction.aaw</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="context">{}</field>
+    </record>
+
+    <!-- ÄTA action filtered by project -->
+    <record id="action_construction_aaw_project" model="ir.actions.act_window">
+        <field name="name">ÄTA</field>
+        <field name="res_model">construction.aaw</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="domain">[('project_id', '=', active_id)]</field>
+        <field name="context">{'default_project_id': active_id}</field>
+    </record>
+
+    <!-- Surcharge template action -->
+    <record id="action_construction_aaw_surcharge_template" model="ir.actions.act_window">
+        <field name="name">Surcharge Templates</field>
+        <field name="res_model">construction.aaw.surcharge.template</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- === Menu Items === -->
+
+    <!-- Top-level Construction menu -->
+    <menuitem id="menu_construction_root"
+              name="Construction"
+              sequence="80"
+              web_icon="construction_aaw,static/description/icon.png"/>
+
+    <!-- ÄTA menu -->
+    <menuitem id="menu_construction_aaw"
+              name="ÄTA"
+              parent="menu_construction_root"
+              action="action_construction_aaw"
+              sequence="10"/>
+
+    <!-- Configuration menu -->
+    <menuitem id="menu_construction_config"
+              name="Configuration"
+              parent="menu_construction_root"
+              sequence="90"
+              groups="base.group_system"/>
+
+    <menuitem id="menu_construction_aaw_surcharge_template"
+              name="Surcharge Templates"
+              parent="menu_construction_config"
+              action="action_construction_aaw_surcharge_template"
+              sequence="10"/>
+
+</odoo>

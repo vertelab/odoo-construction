@@ -1,0 +1,412 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * construction_aaw
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-11 22:00+0000\n"
+"PO-Revision-Date: 2026-07-11 22:00+0000\n"
+"Last-Translator: Vertel Sverige AB\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv\n"
+
+#. module: construction_aaw
+#: model:ir.model,name:construction_aaw.model_construction_aaw
+msgid "ÄTA (Change Order)"
+msgstr "ÄTA (Ändrings-, Tilläggs- och Avgående arbeten)"
+
+#. module: construction_aaw
+#: model:ir.model,name:construction_aaw.model_construction_aaw_line
+msgid "ÄTA Order Line"
+msgstr "ÄTA-orderrad"
+
+#. module: construction_aaw
+#: model:ir.model,name:construction_aaw.model_construction_aaw_surcharge_template
+msgid "ÄTA Surcharge Template"
+msgstr "Påslagsmall"
+
+#. module: construction_aaw
+#: model:ir.model,name:construction_aaw.model_sign_mixin
+msgid "Sign Mixin"
+msgstr "Signeringsmixin"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__name
+msgid "ÄTA Number"
+msgstr "ÄTA-nummer"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__project_id
+msgid "Project"
+msgstr "Projekt"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__contract_id
+msgid "Contract"
+msgstr "Kontrakt"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__partner_id
+msgid "Customer"
+msgstr "Kund"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__partner_contact_id
+msgid "Customer Contact"
+msgstr "Kundkontakt"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__description
+msgid "Description"
+msgstr "Uppdragsbeskrivning"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__aaw_type
+msgid "ÄTA Type"
+msgstr "ÄTA-typ"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__aaw_type
+msgid "Ändring"
+msgstr "Ändringsarbete"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__aaw_type
+msgid "Tillägg"
+msgstr "Tilläggsarbete"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__aaw_type
+msgid "Avgående"
+msgstr "Avgående arbete"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__compensation_method
+msgid "Compensation Method"
+msgstr "Ersättningsform"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__compensation_method
+msgid "Fast pris"
+msgstr "Fast pris"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__compensation_method
+msgid "À-pris"
+msgstr "À-pris"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__compensation_method
+msgid "Löpande räkning"
+msgstr "Löpande räkning"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__estimated_amount
+msgid "Estimated Amount"
+msgstr "Kalkylerat belopp"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__surcharge_template_id
+msgid "Surcharge Template"
+msgstr "Påslagsmall"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__surcharge_amount
+msgid "Surcharge Amount"
+msgstr "Påslag"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__offer_amount
+msgid "Offer Amount"
+msgstr "Anbudsbelopp"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__agreed_amount
+msgid "Agreed Amount"
+msgstr "Avtalat belopp"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__cost_total
+msgid "Total Cost"
+msgstr "Bokförd kostnad"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__revenue_total
+msgid "Total Revenue"
+msgstr "Bokförd intäkt"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__uninvoiced_amount
+msgid "Uninvoiced Amount"
+msgstr "Upparbetat ej fakturerat"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__hide_surcharge
+msgid "Hide Surcharge"
+msgstr "Dölj påslag"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__state
+msgid "Status"
+msgstr "Status"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Draft"
+msgstr "Utkast"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Submitted"
+msgstr "Inskickad"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Approved"
+msgstr "Godkänd"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Rejected"
+msgstr "Avvisad"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "In Progress"
+msgstr "Pågående"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Done"
+msgstr "Klar"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Invoiced"
+msgstr "Fakturerad"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Closed"
+msgstr "Avslutad"
+
+#. module: construction_aaw
+#: model:ir.model.fields,selection:construction_aaw.field_construction_aaw__state
+msgid "Cancelled"
+msgstr "Avbruten"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__notification_date
+msgid "Notification Date (§9)"
+msgstr "Underrättelsedatum (§9)"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__written_order_date
+msgid "Written Order Date (§8)"
+msgstr "Skriftlig beställning (§8)"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__approved_date
+msgid "Approved Date"
+msgstr "Godkännandedatum"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__completed_date
+msgid "Completed Date"
+msgstr "Färdigställandedatum"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__time_extension_days
+msgid "Time Extension (days)"
+msgstr "Tidsförlängning (dagar)"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__time_extension_approved
+msgid "Time Extension Approved"
+msgstr "Tidsförlängning godkänd"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__order_line_ids
+msgid "Order Lines"
+msgstr "Orderrader"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__user_id
+msgid "Responsible"
+msgstr "Ansvarig"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__internal_notes
+msgid "Internal Notes"
+msgstr "Interna anteckningar"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__estimated_quantity
+msgid "Estimated Quantity"
+msgstr "Kalkylerad mängd"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__executed_quantity
+msgid "Executed Quantity"
+msgstr "Utförd mängd"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__unit_price
+msgid "Unit Price"
+msgstr "Á-pris"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__cost_per_unit
+msgid "Cost per Unit"
+msgstr "Kostnad per enhet"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__surcharge_percent
+msgid "Surcharge %"
+msgstr "Påslag %"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_line__billable
+msgid "Billable"
+msgstr "Debiterbar"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_surcharge_template__name
+msgid "Template Name"
+msgstr "Mallnamn"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_surcharge_template__surcharge_percent
+msgid "Surcharge %"
+msgstr "Påslag %"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw_surcharge_template__active
+msgid "Active"
+msgstr "Aktiv"
+
+#. module: construction_aaw
+#: model:ir.actions.act_window,name:construction_aaw.action_construction_aaw
+msgid "ÄTA"
+msgstr "ÄTA"
+
+#. module: construction_aaw
+#: model:ir.actions.act_window,name:construction_aaw.action_construction_aaw_surcharge_template
+msgid "Surcharge Templates"
+msgstr "Påslagsmallar"
+
+#. module: construction_aaw
+#: model:ir.actions.act_window,name:construction_aaw.action_construction_aaw_project
+msgid "ÄTA"
+msgstr "ÄTA"
+
+#. module: construction_aaw
+#: model:ir.ui.menu,name:construction_aaw.menu_construction_root
+msgid "Construction"
+msgstr "Entreprenad"
+
+#. module: construction_aaw
+#: model:ir.ui.menu,name:construction_aaw.menu_construction_config
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#. module: construction_aaw
+#: model:ir.ui.menu,name:construction_aaw.menu_construction_aaw_surcharge_template
+msgid "Surcharge Templates"
+msgstr "Påslagsmallar"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Submit to Customer"
+msgstr "Skicka till kund"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Approve"
+msgstr "Godkänn"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Reject"
+msgstr "Avvisa"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Start Work"
+msgstr "Påbörja arbete"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Mark Done"
+msgstr "Markera som klar"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Create Invoice"
+msgstr "Skapa faktura"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Close"
+msgstr "Avsluta"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Request Signature"
+msgstr "Begär signatur"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Financials"
+msgstr "Ekonomi"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "ABT06"
+msgstr "ABT06"
+
+#. module: construction_aaw
+#: model_terms:ir.ui.view,arch_db:construction_aaw.view_construction_aaw_form
+msgid "Internal Notes"
+msgstr "Interna anteckningar"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__sign_request_ids
+msgid "Sign Requests"
+msgstr "Signeringsförfrågningar"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__is_signed
+msgid "Signed"
+msgstr "Signerad"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__task_ids
+msgid "Tasks"
+msgstr "Arbetsuppgifter"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__customer_approved
+msgid "Customer Approved (Portal)"
+msgstr "Godkänd av kund (Portal)"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__customer_comment
+msgid "Customer Comment"
+msgstr "Kundkommentar"
+
+#. module: construction_aaw
+#: model:ir.model.fields,field_description:construction_aaw.field_construction_aaw__is_invoiced
+msgid "Fully Invoiced"
+msgstr "Fullt fakturerad"

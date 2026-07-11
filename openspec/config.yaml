@@ -1,0 +1,32 @@
+schema: spec-driven
+
+context: |
+  Tech stack: Odoo 18 (Python 3.12, PostgreSQL, OWL/JS)
+  Repo: /usr/share/odoo-construction
+  Related repos:
+    - /usr/share/odoo-contract (contract_aaw, agreement_contract, pricelist_cpi, cpi_table)
+    - /usr/share/odoo-sign (sign_project_task → sign_oca integration)
+    - /usr/share/odooext-OCA-management-system (mgmtsystem_*: ISO compliance, nonconformity, audit, hazard)
+  Conventions:
+    - Author: Vertel Sverige AB
+    - License: AGPL-3
+    - Module naming: construction_<domain> (e.g. construction_aaw)
+    - Models in English, views/labels in Swedish
+    - All modules inherit from Odoo standard models (project.project, contract.contract, etc.)
+    - Target market: medium-to-large Swedish construction/contracting companies
+    - Domain: Swedish construction contracting (entreprenad), AB04/ABT06 compliance
+  Key architectural decisions:
+    - Standalone models, not task-based hacks (project.task.is_aaw deprecated)
+    - Signing via generalized sign.mixin (not sign_project_task)
+    - Payment plans / CPI index separate concerns
+    - SVA/prognos = Phase 2
+
+rules:
+  proposal:
+    - Keep proposals under 500 words
+    - Always include a "Non-goals" section
+  tasks:
+    - Break tasks into chunks of max 2 hours
+  design:
+    - Include data model diagram (ASCII or Mermaid)
+    - Document state transitions

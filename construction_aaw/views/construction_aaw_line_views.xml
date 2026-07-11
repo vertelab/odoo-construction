@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ÄTA Line Tree View (standalone, for potential separate use) -->
+    <record id="view_construction_aaw_line_tree" model="ir.ui.view">
+        <field name="name">construction.aaw.line.tree</field>
+        <field name="model">construction.aaw.line</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="aaw_id"/>
+                <field name="product_id"/>
+                <field name="name"/>
+                <field name="estimated_quantity"/>
+                <field name="unit_price" widget="monetary"/>
+                <field name="surcharge_percent"/>
+                <field name="offer_amount" widget="monetary" sum="Total Offer"/>
+                <field name="billable"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_construction_aaw_user,construction.aaw.user,model_construction_aaw,base.group_user,1,0,0,0
+access_construction_aaw_manager,construction.aaw.manager,model_construction_aaw,base.group_user,1,1,1,1
+access_construction_aaw_line_user,construction.aaw.line.user,model_construction_aaw_line,base.group_user,1,0,0,0
+access_construction_aaw_line_manager,construction.aaw.line.manager,model_construction_aaw_line,base.group_user,1,1,1,1
+access_construction_aaw_surcharge_template_user,construction.aaw.surcharge.template.user,model_construction_aaw_surcharge_template,base.group_user,1,0,0,0
+access_construction_aaw_surcharge_template_manager,construction.aaw.surcharge.template.manager,model_construction_aaw_surcharge_template,base.group_user,1,1,1,1

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Add ÄTA stat button + tab on project form -->
+    <record id="view_project_project_form_inherit" model="ir.ui.view">
+        <field name="name">project.project.form.construction.aaw</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <!-- Add stat button -->
+            <xpath expr="//div[hasclass('o_button_box')]" position="inside">
+                <button name="%(action_construction_aaw_project)d"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-pencil-square-o">
+                    <field name="aaw_count" widget="statinfo" string="ÄTA"/>
+                </button>
+            </xpath>
+            <!-- Add ÄTA tab in notebook -->
+            <xpath expr="//page[@name='settings']" position="after">
+                <page string="ÄTA" name="aaw">
+                    <field name="aaw_ids">
+                        <tree>
+                            <field name="name"/>
+                            <field name="partner_id"/>
+                            <field name="aaw_type"/>
+                            <field name="state" widget="badge"/>
+                            <field name="offer_amount" widget="monetary"/>
+                            <field name="user_id"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
