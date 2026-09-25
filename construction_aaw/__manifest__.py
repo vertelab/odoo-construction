@@ -24,18 +24,20 @@
 {
     'name': 'Construction: ÄTA (Change Orders)',
     'version': '18.0.1.0.0',
-    'summary': 'ÄTA-hantering för bygg- och entreprenadprojekt enligt AB04/ABT06',
-    'description': """
-        Hantera Ändrings-, Tilläggs- och Avgående arbeten (ÄTA) enligt AB04/ABT06.
-        
-        Funktioner:
-        - Fullständig ÄTA-livscykel: Utkast → Inskickad → Godkänd/Avvisad → Pågående → Klar → Fakturerad → Avslutad
-        - ÄTA-nummer per projekt (ÄTA 001, ÄTA 002, ...)
-        - Orderrader med kvantitet, pris, påslag
-        - Påslagsmallar som kan överstyra individuella rad-påslag
-        - Digital signering via sign.mixin
-        - Integration med projekt och kontrakt
-    """,
+    'summary': "Change order (ATA) handling for construction projects per AB04/ABT06.",
+    'description': '''
+ÄTA (Change Orders)
+===================
+
+    Change, Addition and Omission Works (ATA) per AB04/ABT06.
+
+Features:
+
+    - Full ATA life cycle: Draft -> Submitted -> Approved/Rejected ->
+      In progress -> Done -> Invoiced.
+    - Change order lines with quantities and prices.
+    - Automatic invoicing of approved change orders.
+    ''',
     'category': 'Construction',
     'author': 'Vertel Sverige AB',
     'website': 'https://vertel.se/apps/odoo-construction/construction_aaw',
